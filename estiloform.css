@@ -1,0 +1,49 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(219, 215, 216);
+}
+
+div {
+    background-color: rgba(245, 39, 90, 0.904);
+    margin: 0 auto;
+    width:500px;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+form {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+
+form textarea {
+    width: 90%;
+    height: 60px;
+    margin: 0.5rem;
+  }
+
+form button {
+    margin: 4px;
+    padding: 4px 4px;
+    border: none;
+    background: rgb(219, 215, 216);
+    cursor: pointer;
+  }
+
+#mensajevisible {
+    display: none;
+}
